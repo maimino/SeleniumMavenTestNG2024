@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <groups>
+        <run>
+            <include name="testOne"/>
+            <!-- include thêm các group khác -->
+        </run>
+    </groups>
+
+        <test name="First Test">
+        <classes>
+            <class name="com.anhtester.Annotations.DemoAnnotation"></class>
+        </classes>
+    </test>
+<!--    <test name="Second Test">-->
+<!--        <classes>-->
+<!--            <class name="com.anhtester.Annotations.DemoAnnotation">-->
+<!--                <methods>-->
+<!--                    <include name="testTwoMethod" />-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

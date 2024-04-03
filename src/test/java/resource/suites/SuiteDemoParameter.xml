@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Demo Parameter" verbose="1">
+    <parameter name="number1" value="3"></parameter>
+    <parameter name="number2" value="8"></parameter>
+
+    <test name="Test Login CRM">
+        <classes>
+            <class name="com.anhtester.Parameters.DemoParameter"></class>
+        </classes>
+    </test>
+</suite>
